@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+:root{
+    --primary-color: #101820FF;
+    --gradient-color: -webkit-linear-gradient(to right, #bbd2c5, #536976, #292e49);
+    --bg-color: #F2AA4CFF;
+    --text-color: #101820FF;
+    --primary-text: 'Poppins', sans-serif;
+    
+}
+a {
+    text-decoration: none;
+}
+body{
+    font-family: var(--primary-text);
+    background-color: var(--bg-color);
+}
+.header_wrapper .navbar{
+    background-color: var(--primary-color);
+    color: var(--bg-color);
+}
+.hire-btn{
+    display: inline-block;
+    border-radius: 15px;
+    padding: 7px 19px;
+    background-color: transparent;
+    color: var(--text-color);
+    border: 2px solid var(--primary-color);
+    transition: all .4s ease-in-out;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+.hire-btn:hover{
+    background-color: var(--primary-color);
+    color: var(--bg-color);
+}
