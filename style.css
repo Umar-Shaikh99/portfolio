@@ -11,6 +11,26 @@
     --primary-text: 'Poppins', sans-serif;
     
 }
+h1{
+    font-size: 50px;
+    color: var(--text-color);
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+h1 span{
+    color: whitesmoke;
+}
+h6{
+    font-size: 20px;
+    color: var(--text-color);
+    font-weight: 400;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+    line-height: 2px;
+    text-transform: capitalize;
+    display: block;
+}
 a {
     text-decoration: none;
 }
@@ -71,4 +91,16 @@ body{
 .hire-btn:hover{
     background-color: var(--primary-color);
     color: var(--bg-color);
+}
+.banner_wrapper{
+    width: auto;
+    min-height: 600px;
+    height: auto;
+    padding: 100px 0 70px 0;
+    display: block;
+    background-image: url('image/own-image1.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
